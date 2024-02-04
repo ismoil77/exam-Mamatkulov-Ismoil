@@ -3,7 +3,8 @@ import "./lay.css";
 import Switcher from "../components/Swicher";
 import { useTranslation } from "react-i18next";
 import { useEffect } from "react";
-import  { useRef, useState } from "react";
+import { useRef, useState } from "react";
+import img from "/src/assets/_2243895274448oke1.svg";
 const Layout = () => {
     const { t, i18n } = useTranslation();
     const changeLanguage = (language) => {
@@ -18,7 +19,7 @@ const Layout = () => {
         <Link to={"/"}>
           {" "}
           <div className="font-[roboto]">
-            <img src="./src/assets/_2243895274448oke1.svg" alt="" />
+            <img src={img} alt="" />
           </div>
         </Link>
         <img
