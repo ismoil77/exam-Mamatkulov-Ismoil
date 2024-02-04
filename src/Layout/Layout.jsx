@@ -19,11 +19,11 @@ const Layout = () => {
         <Link to={"/"}>
           {" "}
           <div className="font-[roboto]">
-            <img src="/src/assets/_2243895274448oke1.svg" alt="" />
+            <img src="../src/assets/_2243895274448oke1.svg" alt="" />
           </div>
         </Link>
         <img
-          src="../../src/assets/hamburger-menu.webp"
+          src="./src/assets/hamburger-menu.webp"
           className="hidden sm:block w-[50px] dark:invert ml-10px"
           alt=""
         />
