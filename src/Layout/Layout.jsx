@@ -6,10 +6,10 @@ import { useEffect } from "react";
 import { useRef, useState } from "react";
 
 const Layout = () => {
-    const { t, i18n } = useTranslation();
-    const changeLanguage = (language) => {
-      i18n.changeLanguage(language);
-    };
+  const { t, i18n } = useTranslation();
+  const changeLanguage = (language) => {
+    i18n.changeLanguage(language);
+  };
   return (
     <div className="bg-[white] dark:bg-[black] dark:text-[white]">
       <div className="font-[roboto] flex items-center justify-between w-[85%] mx-auto ">
@@ -19,7 +19,7 @@ const Layout = () => {
         <Link to={"/"}>
           {" "}
           <div className="font-[roboto]">
-            <img src="../../src/assets/_2243895274448oke1.svg" alt="" />
+            <img src="/src/assets/_2243895274448oke1.svg" alt="" />
           </div>
         </Link>
         <img
