@@ -18,7 +18,7 @@ const Layout = () => {
         <Link to={"/"}>
           {" "}
           <div className="font-[roboto]">
-            <img src="../../src/assets/_2243895274448oke1.svg" alt="" />
+            <img src="./src/assets/_2243895274448oke1.svg" alt="" />
           </div>
         </Link>
         <img
